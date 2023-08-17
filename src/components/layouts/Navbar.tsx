@@ -13,8 +13,7 @@ const Navbar = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <a href="#home">
-            {" "}
+          <a href="/">
             <span className="text-3xl font-semibold text-brand">TaoSir.</span>
           </a>
         </motion.div>
@@ -22,7 +21,7 @@ const Navbar = () => {
         <nav className="hidden items-center gap-7 md:flex">
           <ul className="flex gap-7 text-sm">
             <Link
-              href="#home"
+              href="/#home"
               className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
             >
               <motion.li
@@ -35,7 +34,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              href="#about"
+              href="/#about"
               className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
             >
               <motion.li
@@ -49,7 +48,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              href="#techStack"
+              href="/#techStack"
               className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
             >
               <motion.li
@@ -63,7 +62,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              href="#projects"
+              href="/#projects"
               className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
             >
               <motion.li
@@ -77,7 +76,7 @@ const Navbar = () => {
             </Link>
 
             <Link
-              href="#contact"
+              href="/#contact"
               className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
             >
               <motion.li
@@ -91,7 +90,7 @@ const Navbar = () => {
             </Link>
           </ul>
 
-          <a href="#" target="_blank">
+          <a href="/#" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
