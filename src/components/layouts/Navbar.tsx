@@ -139,7 +139,7 @@ const SideMenu = () => {
 
           <section className="flex flex-col items-center gap-7">
             <ul className="flex flex-col gap-7 text-base">
-              <Link
+              <a
                 href="#home"
                 className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
               >
@@ -150,9 +150,9 @@ const SideMenu = () => {
                 >
                   主页
                 </motion.li>
-              </Link>
+              </a>
 
-              <Link
+              <a
                 href="#about"
                 className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
               >
@@ -164,9 +164,9 @@ const SideMenu = () => {
                   <span className=" font-medium text-brand">01.</span>
                   关于我
                 </motion.li>
-              </Link>
+              </a>
 
-              <Link
+              <a
                 href="#techStack"
                 className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
               >
@@ -178,9 +178,9 @@ const SideMenu = () => {
                   <span className=" font-medium text-brand">02.</span>
                   技术栈
                 </motion.li>
-              </Link>
+              </a>
 
-              <Link
+              <a
                 href="#projects"
                 className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
               >
@@ -192,9 +192,9 @@ const SideMenu = () => {
                   <span className=" font-medium text-brand">03.</span>
                   作品
                 </motion.li>
-              </Link>
+              </a>
 
-              <Link
+              <a
                 href="#contact"
                 className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
               >
@@ -206,7 +206,7 @@ const SideMenu = () => {
                   <span className=" font-medium text-brand ">04.</span>
                   联系
                 </motion.li>
-              </Link>
+              </a>
             </ul>
 
             <a href="#" target="_blank">
