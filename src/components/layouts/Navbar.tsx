@@ -13,15 +13,15 @@ const Navbar = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <a href="/">
+          <a href="#">
             <span className="text-3xl font-semibold text-brand">TaoSir.</span>
           </a>
         </motion.div>
 
         <nav className="hidden items-center gap-7 md:flex">
           <ul className="flex gap-7 text-sm">
-            <Link
-              href="/#home"
+            <a
+              href="#home"
               className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
             >
               <motion.li
@@ -31,10 +31,10 @@ const Navbar = () => {
               >
                 主页
               </motion.li>
-            </Link>
+            </a>
 
-            <Link
-              href="/#about"
+            <a
+              href="#about"
               className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
             >
               <motion.li
@@ -45,10 +45,10 @@ const Navbar = () => {
                 <span className=" font-medium text-brand">01.</span>
                 关于我
               </motion.li>
-            </Link>
+            </a>
 
-            <Link
-              href="/#techStack"
+            <a
+              href="#techStack"
               className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
             >
               <motion.li
@@ -59,10 +59,10 @@ const Navbar = () => {
                 <span className=" font-medium text-brand">02.</span>
                 技术栈
               </motion.li>
-            </Link>
+            </a>
 
-            <Link
-              href="/#projects"
+            <a
+              href="#projects"
               className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
             >
               <motion.li
@@ -73,10 +73,10 @@ const Navbar = () => {
                 <span className=" font-medium text-brand">03.</span>
                 作品
               </motion.li>
-            </Link>
+            </a>
 
-            <Link
-              href="/#contact"
+            <a
+              href="#contact"
               className="flex cursor-pointer items-center gap-1 text-dark  duration-300 hover:text-brand"
             >
               <motion.li
@@ -87,10 +87,10 @@ const Navbar = () => {
                 <span className=" font-medium text-brand ">04.</span>
                 联系
               </motion.li>
-            </Link>
+            </a>
           </ul>
 
-          <a href="/#" target="_blank">
+          <a href="#" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
