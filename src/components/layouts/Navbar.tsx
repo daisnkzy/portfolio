@@ -27,7 +27,7 @@ const Navbar = () => {
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1 }}
+                transition={{ duration: 0.2, delay: 0.1 }}
               >
                 主页
               </motion.li>
@@ -40,7 +40,7 @@ const Navbar = () => {
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.1 }}
+                transition={{ duration: 0.2, delay: 0.2 }}
               >
                 <span className=" font-medium text-brand">01.</span>
                 关于我
@@ -54,7 +54,7 @@ const Navbar = () => {
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.2 }}
+                transition={{ duration: 0.2, delay: 0.3 }}
               >
                 <span className=" font-medium text-brand">02.</span>
                 技术栈
@@ -68,7 +68,7 @@ const Navbar = () => {
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.3 }}
+                transition={{ duration: 0.2, delay: 0.4 }}
               >
                 <span className=" font-medium text-brand">03.</span>
                 作品
@@ -82,7 +82,7 @@ const Navbar = () => {
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.4 }}
+                transition={{ duration: 0.2, delay: 0.5 }}
               >
                 <span className=" font-medium text-brand ">04.</span>
                 联系
@@ -90,7 +90,7 @@ const Navbar = () => {
             </a>
           </ul>
 
-          <a href="#" target="_blank">
+          <a href="resumev2.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}

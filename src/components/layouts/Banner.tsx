@@ -38,12 +38,11 @@ const Banner = () => {
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.5, delay: 0.7 }}
-        className="font-medium tracking-tight md:max-w-[650px]"
+        className="font-base leading-7 tracking-wider md:max-w-[700px]"
       >
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-        voluptatum provident aut sit maxime neque? Consequuntur amet porro
-        obcaecati et eaque atque ipsa odit, dolore illo accusamus, nobis
-        eligendi voluptatibus!
+        我是一名即将毕业的计算机学院本科生，正在努力转变身份成为一名web开发工程师。尽管我目前的水平还不能完全熟练地进行独立开发，但我正在不断地练习
+        React
+        项目，希望能在真实的生产环境中展现我的能力。我对前端开发充满热情，并且渴望在实践中不断成长和进步。
       </motion.p>
 
       <motion.a
