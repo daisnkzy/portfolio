@@ -22,7 +22,11 @@ const Projects = () => {
           viewport={{ once: true }}
           className="flex flex-col gap-7 xl:flex-row"
         >
-          <a className="h-auto w-full xl:w-1/2" href="" target="_blank">
+          <a
+            className="h-auto w-full xl:w-1/2"
+            target="_blank"
+            onClick={() => window.confirm("该作品将在本人电脑中演示！")}
+          >
             <div className="overflow-hidden">
               <Image
                 className="h-full w-full rounded-md object-contain duration-300 hover:scale-125 "
@@ -73,7 +77,7 @@ const Projects = () => {
         >
           <a
             className="h-auto w-full xl:w-1/2"
-            href="https://reactofadmin.netlify.app/"
+            href="https://reactofadmin.netlify.app"
             target="_blank"
           >
             <div className="overflow-hidden">

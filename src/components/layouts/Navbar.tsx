@@ -90,7 +90,7 @@ const Navbar = () => {
             </a>
           </ul>
 
-          <a href="resumev2.pdf" target="_blank">
+          <a href="resumev3.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
