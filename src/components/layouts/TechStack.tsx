@@ -62,7 +62,7 @@ const TechStack = () => {
             transition: { duration: 0.5, delay: 0.3 },
           }}
           viewport={{ once: true }}
-          className="flex flex-row justify-center gap-1 md:w-32 md:flex-col md:justify-normal  "
+          className="flex flex-row justify-center gap-1  md:w-32 md:flex-col md:justify-normal  "
         >
           {tabs.map((tab) => (
             <li
@@ -71,7 +71,7 @@ const TechStack = () => {
                 activeTab === tab.id
                   ? " border-b-brand bg-violet-100 md:border-l-brand"
                   : ""
-              } cursor-pointer border-b-2 bg-transparent px-8  py-3 text-sm font-medium text-dark duration-300 hover:bg-violet-50 md:border-b-0 md:border-l-2`}
+              } cursor-pointer border-b-2 bg-transparent px-4  py-3 text-sm font-medium text-dark duration-300 hover:bg-violet-50 md:border-b-0 md:border-l-2`}
               onClick={() => handleTabClick(tab.id)}
             >
               {tab.label}

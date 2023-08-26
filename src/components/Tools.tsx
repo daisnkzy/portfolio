@@ -2,23 +2,23 @@ import React from "react";
 
 const Tools = () => {
   return (
-    <div className="grid grid-cols-3 gap-7">
-      <span className=" rounded-lg bg-violet-50 px-12 py-3 text-center text-sm font-medium text-dark ">
+    <div className="grid grid-cols-3 gap-3 md:gap-7">
+      <span className=" rounded-lg bg-violet-50 py-3 text-center text-sm font-medium text-dark md:px-12 ">
         Vite
       </span>
-      <span className=" rounded-lg bg-violet-50 px-12 py-3 text-center text-sm font-medium text-dark ">
+      <span className=" rounded-lg bg-violet-50 py-3 text-center text-sm font-medium text-dark md:px-12 ">
         Git
       </span>
-      <span className=" rounded-lg bg-violet-50 px-12 py-3 text-center text-sm font-medium text-dark ">
+      <span className=" rounded-lg bg-violet-50 py-3 text-center text-sm font-medium text-dark md:px-12 ">
         ESlint
       </span>
-      <span className=" rounded-lg bg-violet-50 px-12 py-3 text-center text-sm font-medium text-dark ">
+      <span className=" rounded-lg bg-violet-50 py-3 text-center text-sm font-medium text-dark md:px-12 ">
         Prettier
       </span>
-      <span className=" rounded-lg bg-violet-50 px-7 py-3 text-center text-sm font-medium text-dark ">
+      <span className=" rounded-lg bg-violet-50 py-3 text-center text-sm font-medium text-dark md:px-7 ">
         LightHouse
       </span>
-      <span className=" rounded-lg bg-violet-50 px-12 py-3 text-center text-sm font-medium text-dark ">
+      <span className=" rounded-lg bg-violet-50 py-3 text-center text-sm font-medium text-dark md:px-12 ">
         NPM
       </span>
     </div>

@@ -1,22 +1,22 @@
 const Css = () => {
   return (
-    <div className="grid grid-cols-3 gap-7">
-      <span className=" rounded-lg bg-violet-50 px-12 py-3 text-center text-sm font-medium text-dark ">
+    <div className="grid grid-cols-3 gap-3  md:gap-7 ">
+      <span className=" rounded-lg bg-violet-50 py-3 text-center text-sm font-medium text-dark md:px-12 ">
         HTML5
       </span>
-      <span className=" rounded-lg bg-violet-50 px-12 py-3 text-center text-sm font-medium text-dark ">
+      <span className=" rounded-lg bg-violet-50 py-3 text-center text-sm font-medium text-dark md:px-12 ">
         CSS3
       </span>
-      <span className=" rounded-lg bg-violet-50 px-12 py-3 text-center text-sm font-medium text-dark ">
+      <span className=" rounded-lg bg-violet-50 py-3 text-center text-sm font-medium text-dark md:px-12 ">
         SASS
       </span>
-      <span className=" rounded-lg bg-violet-50 px-12 py-3 text-center text-sm font-medium text-dark ">
+      <span className=" rounded-lg bg-violet-50 py-3 text-center text-sm font-medium text-dark md:px-12 ">
         CSS Modules
       </span>
-      <span className=" rounded-lg bg-violet-50 px-12 py-3 text-center text-sm font-medium text-dark ">
+      <span className=" rounded-lg bg-violet-50 py-3 text-center text-sm font-medium text-dark md:px-12 ">
         Tailwind CSS
       </span>
-      <span className=" rounded-lg bg-violet-50 px-12 py-3 text-center text-sm font-medium text-dark ">
+      <span className=" rounded-lg bg-violet-50 py-3 text-center text-sm font-medium text-dark md:px-12 ">
         Shadcn UI
       </span>
     </div>

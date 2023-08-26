@@ -209,7 +209,7 @@ const SideMenu = () => {
               </a>
             </ul>
 
-            <a href="#" target="_blank">
+            <a href="resumev3.pdf" target="_blank">
               <motion.button
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
