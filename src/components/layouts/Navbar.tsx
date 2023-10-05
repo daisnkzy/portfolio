@@ -90,7 +90,7 @@ const Navbar = () => {
             </a>
           </ul>
 
-          <a href="resumev3.pdf" target="_blank">
+          <a href="resumev7.pdf" target="_blank">
             <motion.button
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -209,7 +209,7 @@ const SideMenu = () => {
               </a>
             </ul>
 
-            <a href="resumev5.pdf" target="_blank">
+            <a href="resumev7.pdf" target="_blank">
               <motion.button
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
